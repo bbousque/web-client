@@ -7,25 +7,6 @@
     "type": "git",
     "url": "https://github.com/xkawi/react-universal-saga"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xkawi/react-universal-saga/issues"
-  },
-  "keywords": [
-    "react",
-    "isomorphic",
-    "universal",
-    "webpack",
-    "express",
-    "hot reloading",
-    "react-hot-reloader",
-    "redux",
-    "starter",
-    "boilerplate",
-    "babel",
-    "saga",
-    "redux saga"
-  ],
   "main": "bin/server.js",
   "scripts": {
     "start": "better-npm-run start-prod",
@@ -36,21 +17,6 @@
     "watch-client": "better-npm-run watch-client",
     "dev": "concurrently --kill-others \"npm run watch-client\" \"npm run start-dev\"",
     "test": "jest"
-  },
-  "jest": {
-    "globals": {
-      "__SERVER__": false
-    },
-    "moduleFileExtensions": [
-      "",
-      "json",
-      "js",
-      "jsx"
-    ],
-    "moduleDirectories": [
-      "src",
-      "node_modules"
-    ]
   },
   "betterScripts": {
     "start-prod": {
@@ -100,7 +66,6 @@
     "pretty-error": "^2.0.1",
     "react": "^15.2.0",
     "react-dom": "^15.2.0",
-    "react-ga": "^2.1.0",
     "react-helmet": "^3.1.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.5.2",
@@ -131,8 +96,6 @@
     "babel-register": "^6.9.0",
     "babel-runtime": "^6.11.6",
     "better-npm-run": "0.0.11",
-    "bootstrap-loader": "^1.0.10",
-    "bootstrap-sass": "^3.3.5",
     "clean-webpack-plugin": "^0.1.6",
     "concurrently": "^3.1.0",
     "eslint": "2.13.1",
@@ -145,7 +108,6 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "font-awesome": "^4.4.0",
     "font-awesome-webpack": "0.0.4",
-    "jest": "^16.0.1",
     "json-loader": "^0.5.4",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.9.1",
